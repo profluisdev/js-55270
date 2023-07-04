@@ -51,3 +51,73 @@
 //   }
 //   console.log(i);
 // }
+
+// Ciclo While
+// Algoritmo que solicita una entrada al usuario hasta que ingresa “ESC”
+
+// let entrada = prompt("Ingresar un dato");
+
+// while(entrada != "ESC") {
+//     alert("El usuario ingreso " + entrada)
+//     entrada = prompt("Ingresar un dato");
+// }
+
+// Ejemplo de un login para un admin
+
+// let usuario = prompt("Ingrese un nombre de usuario administrador").toLowerCase(); // toLowerCase() transforma el texto ingresado a minúsculas
+// let contrasenia = prompt("Ingrese una contraseña de administrador").toUpperCase(); // toUpperCase() transforma el texto ingresado a mayúsculas 
+
+// while ((usuario != "admin") || (contrasenia != "ADMIN123")) {
+//   alert("El usuario o contraseña no son válidos");
+//   usuario = prompt("Ingrese un nombre de usuario administrador");
+//   contrasenia = prompt("Ingrese una contraseña de administrador");
+// }
+
+// alert("Bienvenido al programa");
+
+// Do While
+
+// let numero = 0;
+
+// do {
+//     numero = prompt("Ingrese un número");
+//     console.log(numero);
+
+// } while(parseInt(numero));
+
+
+// let numero = parseInt(prompt("Ingrese un número del 1 al 10"));
+
+//  while(numero > 10) {
+//     numero = parseInt(prompt("Ingrese un número del 1 al 10"));
+//     console.log(numero);
+//  }
+
+
+// Switch
+
+let continuar = true;
+
+while(continuar) {
+    // Mostrar un mensaje de opciones 
+    let opcion = parseInt(prompt("Selecciona una opción:\n 1. Saludar\n 2. Despedir\n 3. Salir"));
+
+    // Evaluar la opción seleccionada 
+    switch(opcion) {
+        case 1: // if opcion === 1 
+            alert("Hola Bienvenido");
+            break;
+        case 2: // else if opcion === 2 
+            alert("Hasta luego");
+            break;
+        case 3: // else if opcion === 3 
+            continuar = false;
+            break;
+        default: // else
+            alert("Opción inválida por favor ingrese una opción correcta");
+            break;
+    }
+
+}
+
+alert("Gracias por venir")
