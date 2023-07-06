@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "image",
-      "version": 239,
-      "versionNonce": 1959044324,
+      "version": 241,
+      "versionNonce": 950228090,
       "isDeleted": false,
       "id": "kEzDKfWcv6D7ol0KJGV4N",
       "fillStyle": "hachure",
@@ -30,7 +30,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1688272599215,
+      "updated": 1688572505346,
       "link": null,
       "locked": false,
       "status": "pending",
@@ -110,8 +110,8 @@
     },
     {
       "type": "arrow",
-      "version": 438,
-      "versionNonce": 586124124,
+      "version": 446,
+      "versionNonce": 508000678,
       "isDeleted": false,
       "id": "ys5xgzUfEm5FPAMkDXpTX",
       "fillStyle": "hachure",
@@ -132,7 +132,7 @@
         "type": 2
       },
       "boundElements": [],
-      "updated": 1688272599215,
+      "updated": 1688572503329,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -328,7 +328,7 @@
       "containerId": "GIdxjVLB0ERLerCHwuOhx",
       "originalText": "Condicional del switch",
       "lineHeight": 1.15,
-      "baseline": 33
+      "baseline": 32
     },
     {
       "type": "ellipse",
@@ -663,7 +663,7 @@
       "containerId": "ZahFdrWdsqi6wbtz87LKY",
       "originalText": "Acción que se realiza cuando no se cumpla ningúa condición del switch",
       "lineHeight": 1.15,
-      "baseline": 70
+      "baseline": 69
     }
   ],
   "appState": {
