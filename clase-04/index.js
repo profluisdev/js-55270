@@ -171,3 +171,17 @@
 // const mostrarTexto = (texto) => "El texto a mostrar es: " + texto;
 
 // console.log(mostrarTexto("Hola a todos")); // El texto a mostrar es: Función flecha
+
+// Ejemplo para calcular precio
+
+const suma = (valor1, valor2) => valor1 + valor2;
+const resta = (valor1, valor2) => valor1 - valor2;
+
+const iva = (precio) => precio * 0.21;
+
+let precioProducto = 500;
+let descuento = 50;
+
+let precioFinal = resta(suma(precioProducto, iva(precioProducto)), descuento);
+
+console.log(precioFinal);
