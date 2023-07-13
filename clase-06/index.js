@@ -89,7 +89,7 @@ const numeros = [1, 2, 3, 4, 5];
 // const listaNombres = nombres.concat(nombres2)
 // console.log(listaNombres);
 
-// Método Slice
+//Método Slice
 // const nombres = ["Luis", "Juan", "Maria", "Pedro"];
 
 // const sinLuis = nombres.slice(1, 4)
@@ -111,7 +111,93 @@ const numeros = [1, 2, 3, 4, 5];
 
 // Método reverse
 
-const nombres = ["Luis", "Juan", "Maria", "Pedro"];
+// const nombres = ["Luis", "Juan", "Maria", "Pedro"];
 
-nombres.reverse()
-console.log(nombres); // ['Pedro', 'Maria', 'Juan', 'Luis']
+// nombres.reverse()
+// console.log(nombres); // ['Pedro', 'Maria', 'Juan', 'Luis']
+
+// Ejercicio
+
+// const listadoTiposMascotas = [];
+
+// let cantidad = parseInt(prompt("Ingrese la cantidad de mascotas a guardar"));
+
+// do {
+
+//     let nombre = prompt("Ingrese el tipo de mascota");
+//     listadoTiposMascotas.push(nombre.toUpperCase())
+
+// } while(listadoTiposMascotas.length != cantidad) 
+
+
+// alert(listadoTiposMascotas.join("\n"));
+// console.log(listadoTiposMascotas);
+
+// const eliminar = (tipoMascota) => {
+//     let indice = listadoTiposMascotas.indexOf(tipoMascota);
+        // Verifica que encuentre el tipo de mascota
+//     if(indice === -1) {
+//         alert("Lo siento no encontramos el tipo de mascota indicado")
+//     } else {
+//         listadoTiposMascotas.splice(indice, 1)
+//         alert(`Se elimino a ${tipoMascota} de la lista`)
+//     }
+// }
+
+// const tipoEliminar = prompt("Ingrese que tipo tipo de mascota desea eliminar");
+
+// eliminar(tipoEliminar)
+
+// alert(listadoTiposMascotas.join("\n"));
+
+// For of
+
+// const productos = [
+//     {
+//         id: 1,
+//         nombre: "Zapato"
+//     },
+//     {
+//         id: 2,
+//         nombre: "Remera"
+//     },
+//     {
+//         id: 3,
+//         nombre: "Camisa"
+//     }
+// ]
+
+// console.log(productos);
+
+// for (let producto of productos) {
+//     console.log(producto.nombre);
+// }
+
+
+// Ejemplo con clases
+
+// class Producto {
+//     constructor(nombre, precio) {
+//         this.nombre  = nombre.toUpperCase();
+//         this.precio  = parseFloat(precio);
+//     }
+// }
+
+// const productos = [];
+
+// const producto1 = new Producto("Zapato", 200);
+
+// productos.push(producto1);
+
+// console.log(productos);
+
+// productos.push(new Producto("Remera", 100));
+
+// console.log(productos);
+
+// Cambiar el valor de un elemento de un array
+// const nombres = ["Luis", "Juan", "Maria", "Pedro"];
+
+// nombres[1] = "Dario"
+
+// console.log(nombres);
