@@ -33,3 +33,8 @@
 - [Atajos para Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf "Atajos para Windows")
 - [Atajos para Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf "Atajos para Mac")
 - [Atajos para Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf "Atajos para Linux")
+
+## Link lista de video de aplicación de empleados
+
+- [App de empleados](https://www.youtube.com/watch?v=Wbkea76G-Ys&list=PLj533tapKlpDxdWz3sYiOTM4QUi9yXA5h&index=1 "App de empleados")
+
