@@ -25,13 +25,13 @@ const actualizarContador = () => {
 
 sumarBoton.onclick = () => {
   // Sumamos el contador de 1 en 1 y actualizamos
-  contador += 1;
+  contador++;
   actualizarContador();
 };
 
 restarBoton.onclick = () => {
   // Restamos el contador de 1 en 1
-  contador -= 1;
+  contador--;
   actualizarContador();
 };
 

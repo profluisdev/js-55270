@@ -61,13 +61,15 @@ const mostrarEmpleados = (empleados) => {
 
   empleados.forEach((empleado, index) => {
 
+    const { nombre, puesto, edad, sueldo } = empleado;
+    
     let empleadosContenedor = document.createElement("div");
     empleadosContenedor.classList.add( "mt-2","border","border-2","p-3","shadow","shadow-md");
     empleadosContenedor.innerHTML = `
-      <p>Nombre: ${empleado.nombre}</p>
-      <p>Puesto: ${empleado.puesto}</p>
-      <p>Edad: ${empleado.edad}</p>
-      <p>Sueldo: $${empleado.sueldo}</p>
+      <p>Nombre: ${nombre}</p>
+      <p>Puesto: ${puesto}</p>
+      <p>Edad: ${edad}</p>
+      <p>Sueldo: $${sueldo}</p>
     `;
 
     // Agregamos el botón eliminar
