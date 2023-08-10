@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+     <!-- Toastify -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>TODO List</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form id="formTarea" class="d-flex">
+                    <input id="inputTarea" class="form-control" type="text">
+                    <input class="ms-3 btn btn-primary" type="submit" value="Agregar">
+                </form>
+            </div>
+        </div>
+        <!-- Listado de tareas -->
+        <div id="tareasContenedor">
+
+        </div>
+        <!-- contenedor -->
+        <!-- <div class="d-flex mt-3 justify-content-between align-items-center ">
+            <p class="align-self-end text-decoration-line-through">Tarea a realizar</p>
+            <div>
+                <button class="btn btn-danger ms-2">Eliminar</button>
+                <button class="btn btn-success ms-2">Realizado</button>
+            </div>
+        </div> -->
+    </div>
+    <!-- SweetAlert 2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Luxon -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
