@@ -1,33 +1,10 @@
 const carritoElemento = document.querySelector("#carrito");
 const productosElemento = document.querySelector("#productos");
 
-let productos = [
-  {
-    nombre: "Remera",
-    precio: 200,
-    stock: 10,
-  },
-  {
-    nombre: "Pantalon",
-    precio: 500,
-    stock: 23,
-  },
-  {
-    nombre: "Camisa",
-    precio: 300,
-    stock: 5,
-  },
-];
 
-let carrito;
 
-// Verificamos si no existe una clave llamada carrito en nos devuelve null, entonces la creamos
-if (localStorage.getItem("carrito") === null) {
-  carrito = [];
-} else {
-  carrito = localStorage.getItem("carrito");
-}
-
+// localStorage.setItem("carrito", JSON.stringify([]))
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 
 
